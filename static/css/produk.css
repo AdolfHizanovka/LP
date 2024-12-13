@@ -1,0 +1,85 @@
+/*--------- Definisi Root ---------*/
+
+:root {
+    --hijau0:         #8fd60066;
+    --hijau1:         #8fd600;
+    --hijau2:         #00b800;
+    --hijau3:         #00fb00;
+    --hijau4:         #a9fe00;
+    --hijautua:       #007a00;
+    --kuning:         #e6e600;
+
+}
+
+/*--------- Definisi Body & Scrollbar ---------*/
+
+body {
+    background-color: var(--hijau0);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px; 
+}
+
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+/*--------- Definisi Section 1 ( Sticky Header )  ---------*/
+
+.section1 {
+    top: 0px;
+    position: sticky;
+    display: flex;
+    padding: 5px;
+    height: 118px;
+    background-color: var(--hijautua);
+    user-select: none;
+    border-bottom: 3px solid rgba(0, 110, 13, 1);
+    z-index: 100;
+}
+
+.section1a {
+    width: 120px;
+    cursor: url('/static/img/cursor.png'), auto;
+}
+
+
+.img1a {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+.section1aa {
+    position: relative;
+    width: 400px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    font-family: "Poppins";
+    font-size: 60px;
+    padding-left: 10px;
+    font-weight: bolder;
+    color: var(--kuning);
+    cursor: url('/static/img/cursor.png'),auto;
+}
+
+.S1aa1ba {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+    opacity: 0;
+}
+
+.tema1ba {
+    color: var(--kuning);
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: bolder;
+}
